@@ -2,7 +2,7 @@ import BigNumber from "bignumber.js";
 import { injected, newWalletConnect, newWalletlink } from '../connectors';
 import { networks } from '../constants/networksInfo';
 
-const BSC_ID = 56;
+const BSC_ID = 97;
 const GOERLI_ID = 5;
 
 export const STORAGE_NETWORK_ID = process.env.NODE_ENV === 'production' ? BSC_ID : GOERLI_ID;
